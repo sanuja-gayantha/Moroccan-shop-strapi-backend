@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favourites",
+  "info": {
+    "singularName": "favourite",
+    "pluralName": "favourites",
+    "displayName": "Favourite"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "productids": {
+      "type": "json"
+    },
+    "message": {
+      "type": "text"
+    },
+    "tel": {
+      "type": "string"
+    }
+  }
+}
